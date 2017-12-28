@@ -124,7 +124,8 @@ function save(){
 		双边网络加速工具，软件本身的功能是加速UDP；不过，配合vpn可以加速全流量(包括TCP/UDP/ICMP)。通过合理配置，可以加速游戏，降低游戏的丢包和延迟；也可以加速下载和看视频这种大流量的应用。用1.5倍的流量，就可以把10%的丢包率降低到万分之一以下。跟 kcptun/finalspeed/BBR 等现有方案比，主要优势是可以加速 UDP 和 ICMP，现有方案几乎都只能加速 TCP。<br />
 		最新的版本是v2版，在v1版的基础上增加了FEC功能，更省流量。<br />
 		本插件仅实现web配置UDPspeeder功能，开启操作仅配置好加速通道，要进一步成功加速udp协议，还需要手动配置通道的下游软件，比如：shadowsocks，openvpn等..<br />
-		详细介绍和使用教程请查看：<a href="https://github.com/wangyu-/UDPspeeder/blob/master/README.md" target="_blank"><u> 官方说明文档</u></a>&nbsp;&nbsp;&nbsp;&nbsp;
+		详细介绍和使用教程请查看：<a href="https://github.com/wangyu-/UDPspeeder/blob/master/README.md" target="_blank"><u>官方说明文档</u></a>
+		关于本插件的BUG反馈以及建议：<a href="https://github.com/hikaruchang/udpspeeder-koolsoft" target="_blank"><u>Github</u></a> | <a href="mailto:i@rua.moe" target="_blank"><u>Email</u></a>
 		</span>
 	</div>
 </div>
