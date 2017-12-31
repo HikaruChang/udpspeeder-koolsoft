@@ -1,8 +1,8 @@
 {
-    "build_date": "2017-12-43_12:43:18", 
+    "build_date": "2017-12-31_12:43:18", 
     "description": "UDP双边加速工具", 
     "home_url": "Module_udpspeeder.asp", 
-    "md5": "ab2338b5e10c5086d0cc1072c38eed76", 
+    "md5": "cb537c509bb98bb7a548bcc7031b10a9", 
     "module": "udpspeeder", 
     "title": "udpspeeder", 
     "version": "2.0.1"
