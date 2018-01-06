@@ -5,7 +5,7 @@ import os
 import json
 import codecs
 import hashlib
-from string import Template 
+from string import Template
 
 parent_path = os.path.dirname(os.path.realpath(__file__))
 
@@ -47,7 +47,7 @@ def build_module():
         print u"找不到对应的 %s 文件，插件确实 install.sh 文件"
         return
     print u"生成中..."
-    t = Template("cd $parent_path && rm -f $module.tar.gz && tar -zcf $module.tar.gz $module")
+    t = Template("cd $parent_path && rm -f $module.tar.gz && tar -zcf $module.tar.gz --exclude=\"*/\.*\" $module")
     os.system(t.substitute({"parent_path": parent_path, "module": conf["module"]}))
     conf["md5"] = md5sum(os.path.join(parent_path, conf["module"] + ".tar.gz"))
     conf_path = os.path.join(parent_path, "config.json.js")
