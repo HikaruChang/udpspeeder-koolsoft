@@ -7,7 +7,7 @@ eval `dbus export udpspeeder_`
 start_udpspeeder(){
 	[ -n "$udpspeeder_timeout" ] && timeout="--timeout $udpspeeder_timeout" || timeout=""
 	[ -n "$udpspeeder_report" ] && report="--timeout $udpspeeder_report" || report=""
-	[ -n "$udpspeeder_fecmode" ] && fecmode="--fecmode $udpspeeder_fecmode" || fecmode=""
+	[ -n "$udpspeeder_fecmode" ] && fecmode="--mode $udpspeeder_fecmode" || fecmode=""
 	[ -n "$udpspeeder_mtu" ] && mtu="--mtu $udpspeeder_mtu" || mtu=""
 	[ -n "$udpspeeder_queue_len" ] && queue_len="--queue-len $udpspeeder_queue_len" || queue_len=""
 	[ -n "$udpspeeder_jitter" ] && jitter="--jitter $udpspeeder_jitter" || jitter=""
